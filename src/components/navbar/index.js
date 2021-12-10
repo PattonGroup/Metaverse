@@ -3,7 +3,7 @@ import { Nav, NavContainer, NavLogo, MobileIcon, NavMenu,
     NavItems, NavLinks, NavBtn, NavBtnLink } from './elements';
 import {FaBars} from 'react-icons/fa';
 
-const index = () => {
+const NavBar = () => {
     return (
         <>
             <Nav>
@@ -32,4 +32,4 @@ const index = () => {
     )
 }
 
-export default index
+export default NavBar;
